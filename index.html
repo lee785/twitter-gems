@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Gems - Best Accounts to Follow</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💎 Twitter Gems</h1>
+            <p>Curated list of the most valuable accounts to follow on X</p>
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search by category or name...">
+        </div>
+
+        <div class="categories">
+            <button class="category-btn active" data-category="all">All</button>
+            <button class="category-btn" data-category="tech">Technology</button>
+            <button class="category-btn" data-category="business">Business</button>
+            <button class="category-btn" data-category="science">Science</button>
+            <button class="category-btn" data-category="creators">Creators</button>
+        </div>
+
+        <div id="accountsGrid" class="accounts-grid">
+            <!-- Accounts will be loaded here by JavaScript -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
